@@ -156,12 +156,6 @@ namespace Prva_zadaća
             return false;
         }
 
-        /*public int getKurac(){
-          return kurac
-     }
-         pod pretpostavkom da ti je varijabla
-            private int kurac;*/
-
         static void Main(string[] args)
         {
             IntegerList pom = new IntegerList();
