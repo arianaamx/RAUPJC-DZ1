@@ -14,7 +14,6 @@ namespace Prva_zadaća
             bool Remove(int item);
             /// Removes the first occurrence of an item from the collection .
             /// If the item was not found , method does nothing .
-            
            
             bool RemoveAt(int index);
             /// Removes the item at the given index in the collection .
@@ -23,11 +22,9 @@ namespace Prva_zadaća
             int GetElement(int index);
             /// Returns the item at the given index in the collection .
             
-            
             int IndexOf(int item);
             /// Returns the index of the item in the collection .
             /// If item is not found in the collection , method returns -1.
-
 
             int Count { get; }
             /// Readonly property . Gets the number of items contained in the collection.
@@ -46,7 +43,6 @@ namespace Prva_zadaća
         private int[] _internalStorage { get; set; }
         private static int _size { get; set; }
         private static int _lastElementIndex { get; set; }
-
 
         //KONSTRUKTORI! ---- Metode klase koje se izvršavaju kada se neki objekt stvori
         //              ---- Imaju isto ime kao i klasa i koriste se za inicijalizaciju podatkovnih članova novog objekta
@@ -204,8 +200,3 @@ namespace Prva_zadaća
         }
     }
 }
-
-
-    
-
-
